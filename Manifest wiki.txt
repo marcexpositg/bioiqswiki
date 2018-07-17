@@ -1,11 +1,6 @@
-Aquest és el meu primer arxiu
-canvi desde linuxegzsfhzdhzdthnd
+Avui comença una nova etapa de disseny de la wiki:
 
-Aquest fitxer encara no està com per
-guardar-lo perquè
-vull fer algunes modificacions encara
-
-Ara que ja he fet unes modificacions
-Si que el vull penjar.
-Com que no he canviat el fitxer hola, no el selecciono
-només selecciono aquest arxiu
+- pretenem convertir-nos en programadors de pàgines web en 4 dies
+- pretenem que surti algo amb el valor estètic suficient
+- pretenem acabar dins el termini
+- pretenem no morir en l'intent
