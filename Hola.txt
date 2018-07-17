@@ -5,11 +5,4 @@ RECOMPENSAS
 -
 -
 -
-<<<<<<< HEAD
 dinero
--
-EXITO PROFESIONAL
-=======
--
--
->>>>>>> origin/master
