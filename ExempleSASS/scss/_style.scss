@@ -1,0 +1,14 @@
+/* _style.scss */
+/* This file will be compiled by SASS to generate a .css file containing
+the CSS styles for a HTML website */
+
+/* CSS code with variables */
+
+body {
+    background-color: $default_color;
+    padding: 10px;
+    }
+
+h1 {
+    color: $default_color;
+    }

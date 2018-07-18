@@ -1,0 +1,21 @@
+/* import.scss */
+/* _variables.scss */
+/* This file  defines the DEFAULT value of the
+variables used by SASS in the styles.scss file */
+/* _variablescustom.scss */
+/* This file defines the CUSTOM value of the
+variables used by SASS in the styles.scss file */
+/* _style.scss */
+/* This file will be compiled by SASS to generate a .css file containing
+the CSS styles for a HTML website */
+/* CSS code with variables */
+body {
+  background-color: #6200ff;
+  padding: 10px;
+}
+
+h1 {
+  color: #6200ff;
+}
+
+/*# sourceMappingURL=import.css.map */
