@@ -9,3 +9,8 @@
    Hence, it's written as a CSS file but includes the possiblity
    to define new CSS attributes using the variables specified in _variables or
    _variablescustom.css, since it's an .scss file. */
+
+navbar.bg-light {
+  background-color: #5da9f5 !important;
+}
+//#f8f9fa
