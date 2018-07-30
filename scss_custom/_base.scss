@@ -13,4 +13,9 @@
 navbar.bg-light {
   background-color: #5da9f5 !important;
 }
-//#f8f9fa
+//Default color: #f8f9fa
+
+//Esto hace que el menu se despliegue con solo passar mouse por encima, complemento Jquery https://stackoverflow.com/questions/42183672/bootstrap-v4-navbar-dropdown-hover
+.dropdown:hover>.dropdown-menu{
+    display:block
+}

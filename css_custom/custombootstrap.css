@@ -8653,4 +8653,8 @@ navbar.bg-light {
   background-color: #5da9f5 !important;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 /*# sourceMappingURL=custombootstrap.css.map */
