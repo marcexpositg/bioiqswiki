@@ -19,3 +19,9 @@ navbar.bg-light {
 .dropdown:hover>.dropdown-menu{
     display:block
 }
+//No funciona, potser no esta ben ficat
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
