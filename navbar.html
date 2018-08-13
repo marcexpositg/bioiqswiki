@@ -38,10 +38,13 @@
         <a class="nav-link" href="http://2018.igem.org/Team:BioIQS-Barcelona">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team</a>
+        <!-- Afegeixo id team_members_navbar collaborations_navbar per veure si funciona el Javascript de fer que es vegi activa -->
+        <!-- De forma local no funciona, però potser al template igem si que funcionarà -->
+        <!-- Al dropdown item active no crec que faci res però potser podria fer alguna cosa i definir la subclasse dropdonw-item active perque es veise amb un fondo destacat per saber aixi a la pestanya que estem, o potser no -->
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown team_members_navbar collaborations_navbar" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="http://2018.igem.org/Team:BioIQS-Barcelona/Team">Team members</a>
-          <a class="dropdown-item" href="http://2018.igem.org/Team:BioIQS-Barcelona/Collaborations">Collaborations</a>
+          <a class="dropdown-item" id="team_members_navbar" href="http://2018.igem.org/Team:BioIQS-Barcelona/Team">Team members</a>
+          <a class="dropdown-item" id="collaborations_navbar" href="http://2018.igem.org/Team:BioIQS-Barcelona/Collaborations">Collaborations</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -102,10 +105,10 @@
     <!-- Aixo forma part del bootstra, pero es fica al peu de la pagina perque aixi la pagina es carrega mes rapid -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-      <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <!--  <script src="js/jquery-3.3.1.slim.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.js"></script>
-      <script src="js/customjs.js"></script>
+      <script src="js/customjs.js"></script> -->
 
     <!-- Aquests son els que fica ell per defecte que son online (els treiem) -->
     <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
