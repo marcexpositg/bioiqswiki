@@ -1,0 +1,218 @@
+<!doctype html>
+<!-- This is our homepage -->
+<html lang="en">
+  <head>
+
+
+<!--    <title>Aqui va el titol que surt a la pestanya de la web</title> -->
+  <title>BioIQS: Team members</title> <!-- This is our team members page -->
+  <link rel="import" href="navbar.html"> <!-- Eliminar al passar a wiki i ficar template -->
+<!--  <link rel="import" href="footer.html">--> <!-- Eliminar al passar a wiki i ficar template --> <!-- No cal importar footer per el javascript, ja te efecte amb liframe sol -->
+
+  </head>
+  <body>
+    <!-- Importar contingut del Navbar -->
+    <!-- Eliminar al passar a Wiki i ficar template  -->
+    <iframe src="navbar.html" scrolling="no" style="padding: 0px; margin:0; width:100%; height:auto; border:none"
+      ></iframe>
+    <!-- Ficar un Jumbotron amb la foto i elements clicables amb map image -->
+    
+    <div class="jumbotron jumbotron-fluid" id="jmbtrn_team_members">
+      <div class="container-fluid text-center">  <!-- This text_center, centers all the text inside the container  --> 
+        <!-- Container could be make fluid (Adjusting its content) with container-fluid -->
+        <h1 class="display-1" id="team_members_title" style="font-weight: 400">Team members</h1>
+        <p class="lead" style="font-weight: 400">We are the BioIQS team!</p>
+      </div>
+    </div>
+
+    <!-- Navbar de fotos, li fico team pictures per distingir-lo i poderlo amagar i ferli scroll -->
+    <div class="container-fluid" id="team_pictures" style="width:100%;"> <!-- La classe d-none d-md-block amaga l'element en pantalles mes petites que md, per si volem treurel del movil https://getbootstrap.com/docs/4.1/utilities/display/ -->
+        <div class="row">
+          <div class="col-2 col-md-1">
+            <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+          </div>
+          <div class="col-2 col-md-1">
+            <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+          </div>
+          <div class="col-2 col-md-1">
+            <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+          </div>
+          <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+          </div>
+          <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>
+            <div class="col-2 col-md-1">
+              <img class="img-fluid" src="Profile_picture_square.jpg" alt="">
+            </div>    
+
+        </div>
+    </div>
+
+<!-- Descripció de cada membre de l'equip -->
+
+      <!-- La intentem fer responsive ficant columnes -->
+
+      <!-- Esquerra -->
+      <div class="container" id="team_members_presentation">
+        <div class="row my-3 py-3 rounded">
+            <div class="col-sm-3">
+              <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+            </div>
+            <div class="col-sm-9">
+              <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+      </div>
+      <!-- Dreta -->
+      <div class="container" id="team_members_presentation">
+          <div class="row my-3 py-3 rounded">
+              <div class="col-sm-3 order-sm-9"> <!-- Indicant l'ordre aconseguim que la imatge es giri al fer-se gran la pantalla -->
+                <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+              </div>
+              <div class="col-sm-9 order-sm-2">
+                <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
+        </div>
+        
+      <!-- Esquerra -->
+      <div class="container" id="team_members_presentation">
+          <div class="row my-3 py-3 rounded">
+              <div class="col-sm-3">
+                <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+              </div>
+              <div class="col-sm-9">
+                <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
+        </div>
+        <!-- Dreta -->
+        <div class="container" id="team_members_presentation">
+            <div class="row my-3 py-3 rounded">
+                <div class="col-sm-3 order-sm-9"> <!-- Indicant l'ordre aconseguim que la imatge es giri al fer-se gran la pantalla -->
+                  <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+                </div>
+                <div class="col-sm-9 order-sm-2">
+                  <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+              </div>
+          </div>
+          
+      <!-- Esquerra -->
+      <div class="container" id="team_members_presentation">
+          <div class="row my-3 py-3 rounded">
+              <div class="col-sm-3">
+                <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+              </div>
+              <div class="col-sm-9">
+                <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
+        </div>
+        <!-- Dreta -->
+        <div class="container" id="team_members_presentation">
+            <div class="row my-3 py-3 rounded">
+                <div class="col-sm-3 order-sm-9"> <!-- Indicant l'ordre aconseguim que la imatge es giri al fer-se gran la pantalla -->
+                  <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+                </div>
+                <div class="col-sm-9 order-sm-2">
+                  <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+              </div>
+          </div>
+          
+      <!-- Esquerra -->
+      <div class="container" id="team_members_presentation">
+          <div class="row my-3 py-3 rounded">
+              <div class="col-sm-3">
+                <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+              </div>
+              <div class="col-sm-9">
+                <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
+        </div>
+        <!-- Dreta -->
+        <div class="container" id="team_members_presentation">
+            <div class="row my-3 py-3 rounded">
+                <div class="col-sm-3 order-sm-9"> <!-- Indicant l'ordre aconseguim que la imatge es giri al fer-se gran la pantalla -->
+                  <img class="img-fluid align-self-center rounded-circle" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+                </div>
+                <div class="col-sm-9 order-sm-2">
+                  <h4 class="mt-0">Homo sapiens sapiens name title</h4>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+              </div>
+          </div>
+
+              <!-- Ficar les fotos dels membres amb Media https://getbootstrap.com/docs/4.1/layout/media-object/ -->
+    <div class="container" id="team_members_presentation">
+        <div class="row my-3 py-3 rounded">
+          <div class="media">
+            <img class="align-self-center rounded-circle ml-5 mr-5" src="./Profile_picture_square.jpg" alt="Team member picture"> <!-- mr funcio:https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+            <div class="media-body" style="color:red">
+              <h4 class="mt-0">ELIMINAR, PROVA </h4>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+
+    <!-- Importar contingut del Footer
+         Tambe s'importa el Javascript -->
+    <!-- Eliminar al passar a Wiki i ficar template  -->
+    <iframe src="footer.html" style="border:none; width:100%; height:auto"></iframe>
+
+    <!-- Scripts applied only on this page  -->
+    <script>
+      //https://www.youtube.com/watch?v=x0YnVwAuNQI
+      //https://www.youtube.com/watch?v=KbMJPNXYYnw
+
+      //Script per afegir que la pagina es mostri la classe active al navbar en aquesta a la pestanya team members, no se si funcionarà amb templates
+      //Amb iframe de forma local no funciona, però crec que template sí que funcionarà
+      //Tambe caldria fer que el Home es desactivi (remove class active al home")
+      function myFunction() {
+       var element = document.getElementById("team_members_navbar");
+       element.classList.add("active");
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+El jumbotron:
+    Problemes: Quan es fa molt i  molt petit, els bordes de la imatge s'amaguen i la coral i en jordi no hi surten
+
+    - Distància de dalt de tot a la sombra negra: Es pot ajustar canviant al base.scss:
+        compte que cal canviar-lo també als media
+        el que fan els @media és que quan la pantalla sigui més gran que cert nombre se separi, perque sino ens taparien les cares
+                #jmbtrn_team_members{
+                    padding-top:10em;
+                }
+                @media only screen and (min-width: 850px) {
+                    #jmbtrn_team_members{
+                      padding-top:15em;
+                    }
+                }
+                @media only screen and (min-width: 1150px) {
+                    #jmbtrn_team_members{
+                        padding-top:20em;
+                    }
+                }
+    - Mida de la foto i COLOR SOMBRA GRISA -> Es pot fer més gran, fent que ocupi tota la pantalla només de obrir-la. O més petita fent que quedi més com una barra  dalt de tot.
+        Per canviar aquesta mida s'ha d'editar l'espai que hi ha entre les lletres i el final de la imatge,  i això es fa al base.scss:
+            #jmbtrn_team_members .container-fluid{
+                background:rgba(0, 0, 0, 0.466);
+                padding-bottom:65px;  //Change the size of the box by adjusting that bottom padding, with 10px es mes prim i tambe queda be
+                //Podem ficar un padding mes gran perque ocupi més part de la pantalla
+                }
+    - Mida i font de les lletres. Sels hi dona format al HTML mateix amb font-width. Es pot especificar un valor entre 100 i 900 per fer que sigui més gruixuda o menys.
+        La classe lead fa que destaqui el subtítul i  la classe display-1 tb dona format a un títol més prim de bootstrap i més maco
+    - Color de les lletres. Al base.scss:
+        #jmbtrn_team_members{
+                    color:#fff;
+        }
+
+- Barra dels membres:
+    - Que als dispositius grans sigui un scroll bar que quedi a dalt de tot, i afegir una sombra quan hover. https://stackoverflow.com/questions/14667829/how-to-create-a-sticky-navigation-bar-that-becomes-fixed-to-the-top-after-scroll
+
+- Descripció dels membres:
+
+    -Falta: Fer que les imatges es fiquin al centre vertical i horitzontal (quan es fa la pantalla petita)

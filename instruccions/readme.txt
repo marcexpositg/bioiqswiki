@@ -1,0 +1,1 @@
+Aquesta carpeta té instruccions que diu com costumitzar cada un dels elements de la wiki.
