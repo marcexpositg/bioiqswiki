@@ -8698,11 +8698,17 @@ navbar.bg-light {
   padding-right: 0px;
   padding-left: 0px;
 }
+#team_pictures .col-2 img {
+  filter: grayscale(100%);
+}
+#team_pictures .col-2 a:hover img {
+  filter: grayscale(0%);
+}
 
-#team_members_presentation .row {
+.team_members_presentation .row {
   border: 2px solid gray;
 }
-#team_members_presentation img {
+.team_members_presentation img {
   border-style: dashed;
   border-color: gray;
   border-width: 5px;
@@ -8710,7 +8716,7 @@ navbar.bg-light {
 }
 
 @media only screen and (max-width: 577px) {
-  #team_members_presentation img {
+  .team_members_presentation img {
     max-width: 30%;
   }
 }

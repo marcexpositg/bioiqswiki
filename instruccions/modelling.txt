@@ -1,0 +1,4 @@
+Representar el gràfic del model que treiem al HTML mateix i que l'usuari pugui especificar valors, millor especificar valors amb barres de molt poc
+Per inserir la gràfica al HTML podem fer:https://stackoverflow.com/questions/40086575/chart-js-draw-mathematical-function
+i aquest es l'exemple https://jsfiddle.net/j0hymmhc/
+canviant el {return } canvia el que representem    function: function(x) { return x },

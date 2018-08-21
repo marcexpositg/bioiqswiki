@@ -1,0 +1,5 @@
+TODO:
+
+    - Afegir transicions a la Navbar tipu igem UPV Valencia 2017 :
+        Fer que es faci més petita al fer scroll https://stackoverflow.com/questions/24765155/shrinking-navigation-bar-when-scrolling-down-bootstrap3
+        Fer que el canvi sigui progressiu (velocitat) amb webkit-transitions: https://www.w3schools.com/css/css3_transitions.asp

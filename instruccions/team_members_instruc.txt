@@ -32,8 +32,11 @@ El jumbotron:
         }
 
 - Barra dels membres:
-    - Que als dispositius grans sigui un scroll bar que quedi a dalt de tot, i afegir una sombra quan hover. https://stackoverflow.com/questions/14667829/how-to-create-a-sticky-navigation-bar-that-becomes-fixed-to-the-top-after-scroll
+    - Que als dispositius grans sigui un scroll bar que quedi a dalt de tot
+    - afegir una sombra quan hover. https://stackoverflow.com/questions/14667829/how-to-create-a-sticky-navigation-bar-that-becomes-fixed-to-the-top-after-scroll
+    - Desplaçar amb smooth scrolling al clicar
+    - QUE APAREGUI BOTÓ DE TORNAR A DALT AL BAIXAR cap a la part dels membres (javascript)
 
 - Descripció dels membres:
-
+    - Que es canvii la imatge per una altra al fer hover, la de aficions
     -Falta: Fer que les imatges es fiquin al centre vertical i horitzontal (quan es fa la pantalla petita)

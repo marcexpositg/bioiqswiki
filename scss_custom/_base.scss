@@ -65,17 +65,23 @@ navbar.bg-light {
   //Podem ficar un padding mes gran perque ocupi més part de la pantalla
 }
 
-
 //Team pictures bar
 //This removes the 15px padding of the columns of the row of team pictures
   #team_pictures .col-2{
     padding-right:0px;
     padding-left:0px;
+    img{
+    //filter:saturate(0%); or...
+      filter: grayscale(100%);
+    }
+    a:hover img{
+      filter: grayscale(0%);
+    }
   }
 
 
 //TEAM members presentation
-#team_members_presentation{
+.team_members_presentation{
   //margin altura my el configurem directe a html
   //padding altura py el configurem directe a html
   //fiquem margin i  padding per mostrar la linia rodona
@@ -92,7 +98,7 @@ navbar.bg-light {
 }
 
 @media only screen and (max-width: 577px) {
-  #team_members_presentation img{
+  .team_members_presentation img{
     max-width:30%;
   }
 }
