@@ -8708,7 +8708,7 @@ navbar.bg-light {
 .team_members_presentation .row {
   border: 2px solid gray;
 }
-.team_members_presentation img {
+.team_members_presentation img, .team_members_presentation .img-hobby {
   border-style: dashed;
   border-color: gray;
   border-width: 5px;
@@ -8719,6 +8719,17 @@ navbar.bg-light {
   .team_members_presentation img {
     max-width: 30%;
   }
+}
+.img-hobby {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 99;
+}
+
+.img-hobby-container:hover .img-hobby {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=custombootstrap.css.map */
