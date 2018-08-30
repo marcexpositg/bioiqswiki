@@ -1,28 +1,116 @@
 <!doctype html>
 <!-- This is our homepage -->
 <html lang="en">
-  <head>
+
+<head>
 
 
-<!--    <title>Aqui va el titol que surt a la pestanya de la web</title> -->
-  <title>BioIQS</title> <!-- This is our homepage -->
-  <link rel="import" href="navbar.html"> <!-- Eliminar al passar a wiki i ficar template -->
-<!--  <link rel="import" href="footer.html">--> <!-- Eliminar al passar a wiki i ficar template --> <!-- No cal importar footer per el javascript, ja te efecte amb liframe sol -->
+  <!--    <title>Aqui va el titol que surt a la pestanya de la web</title> -->
+  <title>BioIQS</title>
+  <!-- This is our homepage -->
+  <link rel="import" href="navbar.html">
+  <!-- Eliminar al passar a wiki i ficar template -->
+  <!--  <link rel="import" href="footer.html">-->
+  <!-- Eliminar al passar a wiki i ficar template -->
+  <!-- No cal importar footer per el javascript, ja te efecte amb liframe sol -->
 
-  </head>
-  <body>
-    <!-- Importar contingut del Navbar -->
-    <!-- Eliminar al passar a Wiki i ficar template  -->
-    <iframe src="navbar.html" scrolling="no" style="padding: 0px; margin:0; width:100%; height:auto; border:none"
-      ></iframe>
+</head>
 
-    <h1>Hello, world!</h1>
-    <p>This is our homepage</p>
+<body>
+  <!-- Importar contingut del Navbar -->
+  <!-- Eliminar al passar a Wiki i ficar template  -->
+  <iframe src="navbar.html" scrolling="no" style="padding: 0px; margin:0; width:100%; height:auto; border:none"></iframe>
+  <div class="container text-justify">
+    <div class="row">
+      <div class="col">
+        <h1>We are the BioIQS iGEM team!</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img class="img-fluid p-4" src="img/team_members_all_croptop.jpg" alt="TeamMembersPicture">
+      </div>
+    </div>
+    <h2>Project description</h2>
+    <p class="lead">We would like to present you a brief description of our project on celiac disease:</p>
 
-    <!-- Importar contingut del Footer
+    <p>Our project is based on the design of a
+      <b>personalized gluten sensor</b> by using the common tools of synthetic biology. There are already several sensors that
+      are able to detect gluten in the food. However, there are milestones that still have not been overcome. We propose
+      a robust model in which the HLA molecule of a patient is expressed and used as a sensor to detect specific reactive
+      gluten epitopes.
+    </p>
+    <p>
+      <b>Coeliac disease (CD)</b> is an autoimmune disorder that is closely related with HLA (Human leukocyte antigen), a type
+      of receptor that are located in the surface of almost every cell of a human tissue, including white blood cells. These
+      molecules are responsible for the correct discrimination between what is self and foreign proteins, guaranteeing the
+      correct immune response against foreign agents that can cause infections.
+    </p>
+    <p>
+      Within the HLA protein family there are the highly polymorphic HLA-DQ, which means that
+      <b>there are a lot of existing genetic variants of these molecules</b>. Some of these HLA-DQ variants are able to recognize
+      different gluten epitopes (aminoacid sequence of a protein) and present them to the T cells. More specifically, 25%
+      of the general population carry the HLA-DQ that can recognize gluten derived epitopes, but only 1% of the population
+      suffer from coeliac disease. The reason of such fact is that the inflammatory reaction is triggered by some T cells
+      that can sense the gluten epitope presented by the HLA-DQ.
+    </p>
+    <p>
+      Understanding why the inflammatory response is triggered by a certain type of T cells upon epitope presentation by HLA-DQ
+      molecules is essential to uncover the mechanism of CD. Since the first step for the immune response activation is the
+      recognition and binding of the gluten epitope to the HLA-DQ receptor, the development of a personalized sensor to determine
+      reactive epitopes could help to better understand the disease and would also allow the screening of those foods that
+      could potentially trigger an immune response to the patient.
+    </p>
+
+    <div class="card">
+      <h5 class="card-header">Objectives</h5>
+      <div class="card-body">
+        <p class="card-text">In our iGEM Project we will design a
+          <b>personalized gluten sensor</b> through a synthetic biology approach. To do so, we decided to build a model based
+          on the HLA expression of the patient which will be coupled to a sensor, allowing the detection of reactive epitopes.
+          The main specificities of our sensor are described as follows:</p>
+        <ul>
+          <li>Since our sensor will be built
+            <b>according to the patient HLA</b>, it will allow the detection of specific reactive epitopes independently of
+            the food source.</li>
+          <li>Additionally, our sensor will be able to detect reactive epitopes even in
+            <b>fermented foods.</b>
+          </li>
+          <li>The methodology implemented in our sensor could be used for the
+            <b>identification of new reactive epitopes</b> and unknown allelic variants.
+          </li>
+          <li>Our design requires
+            <b>only a DNA sample of the patient</b>. Therefore, the methodology and application of our sensor could be extended
+            for the detection of other HLA related disorders as well as the generation of new research lines for the diagnosis,
+            detection and basic knowledge of these type of disorders.</li>
+        </ul>
+
+        <!-- ANOTHER POSSIBLE VERSION:
+            
+            <div class="card mx-4"> <!- - Use  style="width: 100%;" to set width - ->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Since our sensor will be built <b>according to the patient HLA</b>, it will allow the detection of specific reactive epitopes
+                  independently of the food source.</li>
+                <li class="list-group-item">Additionally, our sensor will be able to detect reactive epitopes even in <b>fermented foods.</b></li>
+                <li class="list-group-item">The methodology implemented in our sensor could be used for the <b>identification of new reactive epitopes</b> and unknown allelic
+                  variants.</li>
+                <li class="list-group-item">Our design requires <b>only a DNA sample of the patient</b>. Therefore, the methodology and application of our sensor could be
+                  extended for the detection of other HLA related disorders as well as the generation of new research lines for the diagnosis,
+                  detection and basic knowledge of these type of disorders.</li>
+              </ul>
+            </div>
+        
+            -->
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- Importar contingut del Footer
          Tambe s'importa el Javascript -->
-    <!-- Eliminar al passar a Wiki i ficar template  -->
-    <iframe src="footer.html" style="border:none; width:100%; height:auto"></iframe>
+  <!-- Eliminar al passar a Wiki i ficar template  -->
+  <iframe src="footer.html" style="border:none; width:100%; height:auto"></iframe>
 
-  </body>
+</body>
+
 </html>
